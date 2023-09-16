@@ -1,63 +1,47 @@
-# Nuxt 3 Minimal Starter
+# capacitor-nuxt3-blank
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This repository is a starter template combining Ionic Capacitor with Nuxt3. Seamlessly embark on modern frontend development and mobile app creation.
+
+## Features
+
+- **Nuxt3**: Utilizing the latest framework based on Vue.js.
+- **Ionic Capacitor**: Easy output as native applications.
 
 ## Setup
 
-Make sure to install the dependencies:
+1. Clone the repository:
 
 ```bash
-# npm
+git clone https://github.com/alclimb/capacitor-nuxt3-blank.git
+cd capacitor-nuxt3-blank
+```
+
+2. Install dependencies:
+
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+3. Start the development server:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
 ```
 
-## Production
+## Building and Running the App
 
-Build the application for production:
+1. Build the app:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
 ```
 
-Locally preview production build:
+2. Use Capacitor to run as a native app:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
+npx cap open android
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## License
+
+This project is released under the MIT license. For more details, refer to the `LICENSE` file.

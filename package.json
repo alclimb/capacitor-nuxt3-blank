@@ -3,14 +3,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "dev": "nuxt dev --host=0.0.0.0 --port=8100",
+    "build": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run dev"
   },
   "dependencies": {
-    "@capacitor/android": "^5.4.0",
+    "@capacitor/android": "5.4.0",
     "@capacitor/app": "^5.0.6",
     "@capacitor/core": "^5.4.0",
     "@capacitor/haptics": "^5.0.6",
@@ -21,5 +22,6 @@
     "@capacitor/cli": "^5.4.0",
     "@nuxt/devtools": "latest",
     "nuxt": "^3.7.3"
-  }
+  },
+  "version": "0.0.0"
 }
